@@ -39,3 +39,4 @@ Thumbs.db
 # Other #
 ################
 .idea
+node_modules

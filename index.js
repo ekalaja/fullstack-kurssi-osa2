@@ -5,7 +5,7 @@ const cors = require('cors')
 const morgan = require('morgan')
 morgan.token('uusi', function (req, res) { return res, JSON.stringify(req.body) })
 
-
+app.use(express.static('build'))
 app.use(bodyParser.json())
 app.use(cors())
 app.use(morgan(':method :url :uusi :status :res[content-length] - :response-time ms'))

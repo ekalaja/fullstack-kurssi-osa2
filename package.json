@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "fullstack kurssin backend",
   "main": "index.js",
+  "proxy": "http://localhost:3001",
   "scripts": {
     "start": "node index.js",
     "watch": "node_modules/.bin/nodemon index.js",
